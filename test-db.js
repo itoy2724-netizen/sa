@@ -1,10 +1,10 @@
 const mysql = require('mysql2/promise');
 (async () => {
     const pool = mysql.createPool({
-        host: 'mysql-b1e21b0-cemyilmaz3580-69aa.c.aivencloud.com',
-        user: 'avnadmin',
-        password: 'AVNS_Igm79oStNyahLlrp3ZY',
-        database: 'defaultdb',
+        host: 102.220.160.109',
+        user: 'dimitri',
+        password: 'Losete00*',
+        database: 'dimitri',
         port: 23515,
         ssl: { rejectUnauthorized: false }
     });
