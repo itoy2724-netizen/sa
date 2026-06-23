@@ -1,22 +1,19 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-     
-  serverExternalPackages: ['mysql2']
-
-
-    images: {
-        remotePatterns: [
-            {
-                protocol: 'https',
-                hostname: 'images.migrosone.com',
-            },
-            {
-                protocol: 'https',
-                hostname: '**',
-            },
-        ],
-    },
+  serverExternalPackages: ['mysql2'],
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.migrosone.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
